@@ -25,4 +25,7 @@ public class DataProvider {
 		
 	}
 
+	public void closeDB() {
+		db.close();
+	}
 }
